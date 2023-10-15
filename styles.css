@@ -1,0 +1,64 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header/navigation */
+header {
+    background-color: #00539C;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main sections */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #00539C;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style the logo image */
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Add more specific styles and additional CSS rules as needed */
